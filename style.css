@@ -2,19 +2,44 @@ body{
     font-family: 'Lato', sans-serif;
     margin: 0;
 }
+.menu-bar{
+    text-align: center;
+    margin-left: 5%;
+}
+header{
+    background: black;
+}
+header p{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
 h1{
     font-size: 50px;
     color: teal;
 }
+h2{
+    font-size: 40px;
+    margin: -2px;
+}
+#about-heading{
+    color: gray;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
 p{
     font-size: 20px;
+}
+.content-bottom-gap{
     margin-bottom: 50px;
+}
+#p-color{
     color: gray;
 }
 span{
     color: orange;
 }
-#top-gap{
+.top-gap{
     margin-top: 150px;
 }
 .reducing-gap{
@@ -22,11 +47,13 @@ span{
 }
 .flexible-container{
     display: flex;
-    margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
     margin: 5%;
+}
+.half-width img{
+    width: 110%;
 }
 .button{
     text-decoration: none;
@@ -35,4 +62,46 @@ span{
     border-radius: 200px;
     font-weight: 600;
     color: white;
+}
+#background-img{
+    background-image: url(images/background.png);
+}
+h3{
+    font-size: 30px;
+    color: lightslategray;
+}
+.centre-alignmaent{
+    text-align: center;
+    margin-left: 22%;
+    margin-right: 22%;
+}
+h4{
+    color: yellowgreen;
+    font-size: 25px;
+    margin-bottom: -10px;
+    font-weight: 900;
+}
+.add-shadow{
+    box-shadow: 1px 1px 20px #d3cdcd;
+    padding: 1%;
+    border-radius: 30px;
+    margin: 5%;
+}
+.add-shadow img{
+    width: 100%;
+}
+.reduce-box-textsize{
+    font-size: 16px;
+}
+footer{
+    background: black
+}
+footer h5{
+    font-size: 20px;
+    color: white;
+    padding-top: 20px;
+}
+footer p{
+    color: magenta;
+    padding-bottom: 100px;
 }
