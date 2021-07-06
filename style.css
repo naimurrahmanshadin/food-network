@@ -7,7 +7,7 @@ header{
     background: black;
 }
 header a{
-    fonr-size: 18px;
+    font-size: 18px;
     font-weight: 700;
     margin-left: 5%;
     text-decoration: none;
@@ -102,21 +102,23 @@ h4{
 .reduce-box-textsize{
     font-size: 16px;
 }
-.sign-up-form{
+#sign-up-form{
     box-shadow: 1px 1px 20px lightgray;
-    border-radius: 20px;
     text-align: center;
-    margin: 5%;
-    padding: 5%;
-    background: chocolate;
+    margin-bottom: 0;
+    padding-bottom: 50px;
+    background: orange;
 }
 .input-box{
-    padding: 10px 80px;
-    margin: 10px;
-    border-radius: 100px;
+    padding: 10px 10px;
+    margin: 20px;
+    border-radius: 10px;
+    background: white;
 }
 footer{
-    background: black
+    background: black;
+    margin-top: 0;
+    padding-top: 10px;
 }
 h5{
     font-size: 20px;
