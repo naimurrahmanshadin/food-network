@@ -4,11 +4,12 @@ body{
 }
 header{
     padding: 20px 5px 20px 5px;
+    background: black;
 }
 header a{
     fonr-size: 18px;
     font-weight: 700;
-    margin-left: 2%;
+    margin-left: 5%;
     text-decoration: none;
     color: white;
     text-align: right;
@@ -16,9 +17,6 @@ header a{
 .menu-bar{
     text-align: center;
     margin-left: 5%;
-}
-header{
-    background: black;
 }
 header p{
     color: white;
@@ -79,7 +77,7 @@ span{
 }
 h3{
     font-size: 30px;
-    color: lightslategray;
+    color: gray;
 }
 .centre-alignmaent{
     text-align: center;
@@ -104,10 +102,23 @@ h4{
 .reduce-box-textsize{
     font-size: 16px;
 }
+.sign-up-form{
+    box-shadow: 1px 1px 20px lightgray;
+    border-radius: 20px;
+    text-align: center;
+    margin: 5%;
+    padding: 5%;
+    background: chocolate;
+}
+.input-box{
+    padding: 10px 80px;
+    margin: 10px;
+    border-radius: 100px;
+}
 footer{
     background: black
 }
-footer h5{
+h5{
     font-size: 20px;
     color: white;
     padding-top: 20px;
