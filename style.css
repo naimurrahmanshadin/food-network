@@ -18,10 +18,9 @@ header a{
     text-align: center;
     margin-left: 5%;
 }
-header p{
-    color: white;
-    font-size: 20px;
-    font-weight: 700;
+.searchbar-alignment{
+    text-align: right;
+    margin-right: 2%;
 }
 h1{
     font-size: 50px;
@@ -71,6 +70,7 @@ span{
     border-radius: 200px;
     font-weight: 600;
     color: white;
+    margin-top: 10px;
 }
 #background-img{
     background-image: url(images/background.png);
@@ -105,13 +105,12 @@ h4{
 #sign-up-form{
     box-shadow: 1px 1px 20px lightgray;
     text-align: center;
-    margin-bottom: 0;
     padding-bottom: 50px;
     background: orange;
 }
 .input-box{
     padding: 10px 10px;
-    margin: 20px;
+    margin-top: 10px;
     border-radius: 10px;
     background: white;
 }
